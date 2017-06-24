@@ -1,0 +1,53 @@
+path {
+  stroke: rgb(128, 128, 128);
+}
+
+path[stroke="#ffffff"] {
+  visibility: hidden;
+  pointer-events: stroke;
+}
+
+.el-button {
+  padding: 6px 7px 6px 8px;
+  margin: 0 4px;
+}
+
+.toolbar {
+  position: fixed;
+  padding: 8px;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  border-bottom: 1px solid rgba(132, 146, 166, 0.5);
+  background-color: #FFFFFF;
+  z-index: 101;
+}
+
+.el-button + .el-button {
+  margin-left: 0;
+}
+
+#myflow {
+  margin: 20px -8px 0 -8px;
+  width: 5000px;
+  height: 3000px;
+}
+
+.input_select {
+  left: -10px
+}
+
+.text-right {
+  float: right;
+  margin-bottom: 5px;
+  margin-top: -10px;
+}
+
+.text-left {
+  float: left;
+}
+
+.el-upload-list {
+  display: none;
+}
