@@ -211,7 +211,7 @@ public class XmlUtil {
             Element rulesElement = element.addElement("Rules");
             List<RuleBean> ruleList = node.getProps().getRule();
             for (RuleBean rule : ruleList) {
-                Element ruleElement = rulesElement.addElement("rule");
+                Element ruleElement = rulesElement.addElement("Rule");
                 ruleElement.addAttribute("type", String.valueOf(rule.getType()));
                 ruleElement.addAttribute("fromNodeId", rule.getFromNodeId());
                 ruleElement.addCDATA(rule.getRule());
