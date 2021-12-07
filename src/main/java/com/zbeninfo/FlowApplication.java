@@ -35,7 +35,7 @@ public class FlowApplication {
         SpringApplication.run(FlowApplication.class, args);
     }
 
-    @Value("${multipart.location}")
+    @Value("${user.dir}/tmp")
     public String location;
 
     @RequestMapping(value = {"/"})
